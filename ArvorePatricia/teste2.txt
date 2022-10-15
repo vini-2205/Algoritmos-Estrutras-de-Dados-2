@@ -1,0 +1,74 @@
+A etica na computacao
+
+
+Introducao ? O que e etica?
+
+      A evolucao das tecnicas computacionais e o crescimento da popularidade da informatica na sociedade tem causado o aumento das discussoes sobre etica na computacao. Mas o significado da palavra etica tem confundido muitos ao ser comparado com o significado de moral. Moral e aplicada quando se quer ditar regras de conduta a uma pessoa ou a um grupo. Etica e a ciencia que estuda as varias morais, comparando-as e verificando se sao legitimas, se nao sao influenciadas, se realmente sao modelos de referencia para a tomada de decisoes.
+      A etica se baseia muito no bom senso pessoal para estabelecer se uma moral atende as necessidades e desejos de um grupo/pessoa sem agredir os direitos da sociedade em volta. Essa atitude subjetiva tem criado controversias, pois toda ciencia baseada no senso comum e duvidosa, porque cada pessoa pensa de um jeito e o que e ?certo? para alguem pode ser ?errado? para outrem. E como e baseada nas morais, que sao bem variadas, a etica nao e imutavel, variando com o lugar, a epoca e fatores externos, deixando de ser uma ciencia 100% confiavel.
+      Para se ter uma ideia da variabilidade dos conceitos morais e eticos e para exemplificar a diferenca entre eles, analisemos o caso da pirataria de software. A moral que e oficializada pela maioria das leis determina que este ato e anti-etico em todos os seus sentidos, enquanto em uma comunidade que apoia o software livre, a ideia de copiar programas jamais e associada a ilegalidade. Mas a moral que e adotada pela maior parte das pessoas e a que divide a pirataria em duas modalidades: uma mais tenue, que envolve emprestimos inofensivos de cds a amigos e uso remoto de programas em uma pequena rede e outra forma mais criminal, que visa o lucro a custa do prejuizo do ?proprietario intelectual? do programa.
+      A etica e quem define se cada uma das morais e valida no ambiente em que atuam, determina se sao boas fontes de aconselhamento na hora de fazer um escolha do tipo ?copiar ou nao copiar?? e verifica se nao esta havendo alguma influencia politica ou social de alguma organizacao ou grupo no estabelecimento destes conceitos. Num futuro proximo, talvez as opinioes sejam outras e fatores tecnologicos, juridicos, etc. podem mudar o ponto de vista etico da situacao.
+      
+      
+Codigos de etica
+      
+      A maior dificuldade em se falar de etica na computacao e que, como qualquer pessoa de qualquer area de estudo pode estudar informatica, inclusive pessoas que nao fazem qualquer curso superior, fica dificil de se criar uma regulamentacao que todo profissional do setor deve seguir ao se deparar com situacoes em que e preciso julgar o que e correto e o que e incorreto. Nao existe um codigo de etica oficial, como na Medicina ou no Direito, mesmo porque se houvesse, nao abrangeria a todos os praticantes da area, atingindo apenas aqueles que tomassem conhecimento atraves de disciplinas da graduacao, talvez eletivas.
+      Nao sendo a profissao regulamentada, nao existem orgaos fiscalizadores ou estruturas sindicais que zelam pelo bom desempenho do profissional. Em alguns paises, foram criadas sociedades que tentam suprir essa necessidade, como a ACM (Association for Computer Machinery), que possuem inclusive codigos de etica, entretanto a punicao pela nao-obediencia as diretivas geralmente limita-se ao banimento da associacao, sendo o comportamento dos membros praticamente determinado pela consciencia individual.
+      No Brasil existe a SBC (Sociedade Brasileira de Computacao), que exerce grande influencia na comunidade da area de informatica, uma vez que a maioria dos professores universitarios da area sao seus associados, ajudando a formar profissionais qualificados. Porem a SBC nao possui um codigo de etica para orientar seus membros, apenas um projeto baseado no codigo da ACM e da Britsh Computer Society. A SUCESU e outra entidade atuante no ramo, mas que tambem nao possui um codigo destinado a individuos por  ser composta basicamente por instituicoes. O Instituto para Etica da Computacao criou um pequeno codigo de conduta que ficou conhecido como &quot;Os Dez Mandamentos para Etica na Informatica&quot;, transcrito a seguir:
+1. Voce nao devera usar o computador para produzir danos em outra pessoa;
+2. Voce nao deve interferir no trabalho de computacao de outra pessoa; 
+3. Voce nao deve interferir nos arquivos de outra pessoa; 
+4. Voce nao deve usar o computador para roubar; 
+5. Voce nao deve usar o computador para dar falso testemunho; 
+6. Voce nao devera usar software pirateado; 
+7. Voce nao devera usar recursos de computadores de outras pessoas; 
+8. Voce nao devera se apropriar do trabalho intelectual de outra pessoa; 
+9. Voce devera refletir sobre as conseq&uuml;encias sociais do que escreve; 
+      10. Voce devera usar o computador de maneira que mostre consideracao e respeito ao interlocutor.
+      Aos profissionais formados nos novos cursos de engenharia da computacao e dada a possibilidade de se afiliar ao CREA (Conselho Regional de Engenharia, Arquitetura e Agronomia) e, com isso adotar suas normas e o Codigo de Etica do CONFEA (Conselho Federal de Engenharia e Agronomia). Entretanto, as recomendacoes desse codigo nao sao especificas para a informatica, negligenciando temas de repercussao na atualidade, como a privacidade, confidencialidade, propriedade, etc. Criado ha mais de vinte anos, este guia visava esclarecer d&uacute;vidas eticas no campo da engenharia tradicional, nao sendo propriamente destinado a trabalhadores de computacao, a nao ser que passe por uma atualizacao para abranger essas novas necessidades.
+       Acredita-se que os profissionais da area de informatica se comportam ora como engenheiros ou arquitetos, construindo ou supervisionando a elaboracao de especificacoes, ora como contadores, analisando financeira e comercialmente o mercado antes de iniciar o desenvolvimento de softwares e sistemas. Sendo assim, o Codigo de etica dos Contabilistas tambem pode ser um boa fonte de consulta, principalmente para consultores, peritos, auditores, proprietarios de micro-empresas de informatica ou para qualquer pessoa que trabalhe ou se relacione com pessoas da area contabil.
+
+Por que um codigo de etica?
+      
+      Um codigo de etica e formado basicamente de diretivas voltadas para seis aspectos de obrigacoes eticas: 
+* para com a sociedade em geral, zelando pelo bem estar de todas pessoas sem qualquer discriminacao, visando construir ou manter uma sociedade livre, justa e solidaria;
+* para com os empregadores, usualmente quando estes nao tem conhecimento na area e o supervisionamento tecnico do trabalho e todo realizado com base na confianca; 
+* para com os clientes, se estes forem leigos como no caso dos empregadores, quando o profissional e um prestador de servicos ou consultor; 
+* para com a sociedade de classe, no caso, a comunidade computacional, com o intuito de proteger os interesses da associacao criadora do codigo e de seus membros.
+* para com os colegas de profissao, que compartilham os mesmos interesses e colaboram para o bem estar de todos.
+* para com a profissao em geral, com o objetivo de nao difamar os outros trabalhadores da area e evitar que a profissao nao seja mal-vista pelo restante da sociedade.
+      Nao e raro acontecer de alguma dessas obrigacoes entrar em conflito com outra, sendo necessario que o bom senso decida a prioridade entre elas. Geralmente a obrigacao com a profissao tem prioridade sobre a com os colegas e a obrigacao para com a sociedade em geral e superior a todas as outras em praticamente todos os contextos.
+      Um codigo de etica consiste tambem em um conjunto de diretrizes que esclarecem as circunst&acirc;ncias em que cada um dos mandamentos se aplicam. Ou pode haver um conjunto de casos para estudo comparativo, auxiliando na resolucao de novas situacoes. O codigo, junto com seus suplementos, serve como base para julgamento de casos mais complexos, utilizando principios eticos que derivam de diretivas mais gerais.
+      A necessidade de um codigo de etica se mostra quando nos deparamos com uma divergencia de opinioes devido aos envolvidos em uma ocorrencia se acharem ambos prejudicados e protegidos pelos preceitos eticos, as vezes mal interpretados. Nestes casos, uma analise detalhada dos mandamentos acompanhada de bom senso de partes neutras podem definir a atitude correta nesses casos.
+      Nao ha d&uacute;vida da import&acirc;ncia da etica para o desenvolvimento da humanidade, pois sem um conjunto de principios humanitarios visando o bem comum, as civilizacoes ja teriam se auto-destruido. Mas um codigo de etica nao e o suficiente para o progresso moral de um povo. E preciso que haja uma concord&acirc;ncia minima entre as nacoes sobre principios basicos como justica, igualdade, dignidade, cidadania, solidariedade, etc. para que estes possam ser postos em pratica. E isso ainda nao e o bastante. E necessario que cada cidadao assimile estes principios e incorpore-os na pratica diaria, zelando pelo seu cumprimento.
+      
+Regulamentacao da profissao
+
+	Como os codigos de etica nao dao garantia nenhuma da obediencia a seus estatutos, tem se pensado em regulamentar as profissoes da area de computacao, criando um conselho com autoridade para fiscalizar e penalizar aqueles que nao cumprirem seu regulamento. Por outro lado, muitos nao concordam com a criacao de tal instituicao e essa divergencia tem causado debates calorosos entre defensores das duas ideias.
+	No Brasil, a SBC mostra-se a maior defensora da nao-regulamentacao defendendo a liberdade do exercicio do profissionalismo sem necessidade de submissao a instituicoes que so burocratizariam e limitariam a atuacao do profissional  em prol de seus interesses. Enquanto a FENADADOS (Federacao Nacional dos Empregados de Empresas de Processamento de Dados) e sua maior rival, defendendo a criacao do CONIN (Conselho Nacional de Informatica) e de projetos de lei pra regulamentacao da profissao chamada provisoriamente de ?informata?.
+	Os argumentos de cada lado sao muito convincentes, embora haja pontos de concord&acirc;ncia nas opinioes acerca da qualidade de ensino  e da criacao de um codigo de etica. Entre as argumentacoes a favor da regulamentacao se destacam:
+* Os servicos prestados seriam de melhor qualidade.
+* Formandos qualificados teriam emprego garantido.
+* A etica profissional seria melhor estabelecida.
+* Trabalhadores anti-profissionais ou anti-eticos nao teriam vez no mercado.
+* Um conjunto de normas tecnicas seria criado.
+* Unificacao das variadas profissoes da area e nomenclatura apropriada.
+* Fim da separacao entre os profissionais de computacao e demais profissoes regulamentadas.
+* Criacao de um conselho de classe especifico com normas mais cabiveis pra area.
+A oposicao a essas alegacoes se da com as seguintes justificativas:
+* Um diploma nao e garantia de qualidade, assim como a falta de um nao significa falta de profissionalismo.
+* Ha uma grande dificuldade em definir quem exerce a profissao devido a grande quantidade de programadores informais que atuam em outras areas.
+* Seria estabelecido um curriculo minimo, o que num contexto din&acirc;mico como o da informatica, se tornaria obsoleto rapidamente.
+* A velocidade das mudancas no setor dificultaria a definicao das atribuicoes do profissional e a legislacao nao conseguiria acompanha-las com seu ritmo lento.
+* A sociedade ja possui leis suficientes pra punir um mal profissional da informatica.
+* Normas Tecnicas e um codigo de etica podem ser estabelecidos sem a necessidade de regulamentacao da profissao.
+* Ha necessidade de testes de qualidade apenas para os ?produtos?, os softwares, nao para os profissionais.
+* Devido a reserva de mercado, bons profissionais ficariam fora do mercado.
+* A fiscalizacao so pode ser realizada por outros integrantes da classe.
+* Aumento do preco dos produtos produzidos pelos ?profissionais qualificados?.
+* A necessidade de registro para exercer a profissao criaria reserva de mercado para profissionais estrangeiros, auxiliando o crescimento do desemprego no Brasil.
+* As normas tecnicas nao poderao dar garantia de qualidade total aos programas, pois a natureza destes nao permite que os programadores assumam total responsabilidade pelos problemas (bugs) que venham a apresentar.
+      
+Conclusao
+
+      Apesar de tantas objecoes, a SBC assume que a regulamentacao da profissao e inevitavel, e cedo ou tarde algum projeto de lei, como o do deputado Silvio de Abreu (PDT/MG), que regulamenta a profissao de analista de sistemas, sera aprovado. Portanto, ela toma a frente, criando sua propria proposta bem ao estilo do copyleft do projeto GNU, dando ampla liberdade para o exercicio profissional, utilizando de um artificio legal e citando inclusive artigos da Constituicao para justificar sua posicao. Mas nao apoia a criacao de qualquer conselho para proteger seu codigo.
+	Com ou sem regulamentacao, a sociedade necessita de um conjunto de normas para serem seguidas nao so pelos profissionais de informatica como por qualquer aventureiro que se atreva a experimentar o poder da computacao e verificar o quao frageis sao as pessoas frente ao computador. Esse normativo precisa ser din&acirc;mico para acompanhar a constante aceleracao das mudancas que ocorrem no contexto da etica na informatica.

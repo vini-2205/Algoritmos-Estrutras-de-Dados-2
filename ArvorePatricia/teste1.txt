@@ -1,0 +1,36 @@
+Importancia da Computacao e a formacao de mao-de-obra especializada
+
+No dia 16/12/2008 a ACM (Association for Computing Machinery) solicitou ao presidente eleito 
+dos Estados Unidos que colocasse como prioridade nacional a educacao cientifica e a matematica.
+ Alem disso, solicitou que a ciencia da computacao fosse uma parte fundamental do sistema 
+educacional norte-americano. Nao seria o caso de o governo brasileiro fazer o mesmo?
+
+A computacao nao beneficia somente os profissionais que irao atuar na criacao de 
+sistemas computacionais ou na infra-estrutura de computacao. Todos ganham ao lidar
+ com computadores desde cedo. Todos os profissionais, em maior ou menor grau, utilizam 
+computadores para cumprir suas funcoes.
+
+Por outro lado, no mundo todo ha uma diminuicao no numero de estudantes interessados 
+em ingressar em cursos de computacao. Isso faz com que haja um grande volume de vagas
+ em aberto atualmente para profissionais qualificados e, devido ao crescimento do setor
+ de informatica, o quadro que se desenha para o futuro e promissor para quem se especializar
+ na area de TI: muitas vagas e poucos profissionais capacitados.
+
+Importar profissionais de outras areas, situacao corriqueira em todas as empresas 
+do setor de tecnologia, nao resolve o problema. Profissionais de outras areas 
+podem entrar no setor de computacao sem os fundamentos necessarios para gerar 
+o trabalho com maior produtividade. e necessario investir na formacao de mao-de-obra
+ especializada, ter cursos mais atrativos para a comunidade e focar mais no mercado
+ de trabalho, pois e la que estao os empregos.
+
+Uma politica de desenvolvimento que se diz sustentavel nao pode abrir mao 
+da educacao. E falar de desenvolvimento sem incluir a informatica e, no minimo, 
+ingenuidade. O importante e agir rapido, pois em educacao os resultados nao aparecem
+ rapidamente. Serao necessarios alguns anos para formar bons profissionais.
+ e necessario convencer os jovens que a area de tecnologia e uma das que mais
+ garantirao emprego, mesmo com toda crise global.
+
+Tanto no Brasil quanto no mundo a tecnologia representa uma grande 
+oportunidade para gerar empregos que agregam valor ao que se produz. 
+O Brasil pode optar por investir nesta area, como fizeram a China e a
+ india, ou ver, mais uma vez, uma grande oportunidade passar sem ser aproveitada.
