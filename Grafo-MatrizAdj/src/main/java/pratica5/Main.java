@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws Exception {
         Scanner ler = new Scanner(System.in);
-        System.out.println("O grafo eh direcionado? Sim(1) Nao(2)");
+        System.out.println("O grafo eh direcionado? Sim(1) Nao(2)");//analisar se o grafo eh direcionado
         int direcionado = ler.nextInt();
         System.out.print("No. vertices: ");
         int nVertices = ler.nextInt();

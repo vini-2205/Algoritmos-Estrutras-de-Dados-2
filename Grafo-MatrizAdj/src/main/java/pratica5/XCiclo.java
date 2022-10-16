@@ -10,7 +10,7 @@ public class XCiclo {
     private int ciclos = 0;
 
 
-    public int getCiclos() {
+    public int getCiclos() {//verificar ese existe ciclo
         return ciclos;
     }
 
@@ -23,9 +23,8 @@ public class XCiclo {
     }
 
     private int visitaDfs(int u, int tempo, int cor[]) {
-        cor[u] = cinza;
+        cor[u] = cinza;//colocar vertice como cinza
         this.d[u] = ++tempo;
-//    System.out.println ("Visita "+u+" Descoberta:"+this.d[u]+" cinza");
         if (!this.grafo.listaAdjVazia(u)) {
             XGrafo.Aresta a = this.grafo.primeiroListaAdj(u);
             while (a != null) {
@@ -34,7 +33,7 @@ public class XCiclo {
                     this.antecessor[v] = u;
                     tempo = this.visitaDfs(v, tempo, cor);
                 }
-                else if (cor[v] == cinza){
+                else if (cor[v] == cinza){//se for cinza eh uma aresta de retorno
                     ciclos++;
                 }
                 a = this.grafo.proxAdj(u);
@@ -46,15 +45,15 @@ public class XCiclo {
         return tempo;
     }
 
-    public void buscaEmProfundidade() {
+    public void buscaEmProfundidade() { //realizar busca
         int tempo = 0;
         int cor[] = new int[this.grafo.numVertices()];
         for (int u = 0; u < grafo.numVertices(); u++) {
             cor[u] = branco;
-            this.antecessor[u] = -1;
+            this.antecessor[u] = -1; 
         }
         for (int u = 0; u < grafo.numVertices(); u++) {
-            if (cor[u] == branco) {
+            if (cor[u] == branco) { //caso o vertice seja branco realizar a visita
                 tempo = this.visitaDfs(u, tempo, cor);
             }
         }

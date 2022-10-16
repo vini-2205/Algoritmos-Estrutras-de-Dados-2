@@ -7,8 +7,8 @@ public class XGrafo {
         private int v1, v2, peso;
 
         public Aresta(int v1, int v2, int peso) {
-            this.v1 = v1;
-            this.v2 = v2;
+            this.v1 = v1;//colocar vertice 1
+            this.v2 = v2;//vertice 2
             this.peso = peso;
         }
 
@@ -24,11 +24,11 @@ public class XGrafo {
             return this.v2;
         }
     }
-    private int mat[][]; // @{\it pesos do tipo inteiro}@
+    private int mat[][]; // @{\it pesos do tipo inteiro}@//criar matriz
     private int numVertices;
     private int pos[]; // @{\it posi\c{c}\~ao atual ao se percorrer os adjs de um v\'ertice v}@
 
-    public XGrafo(int numVertices) {
+    public XGrafo(int numVertices) { //cria um grafo com o numero de vertices da matriz
         this.mat = new int[numVertices][numVertices];
         this.pos = new int[numVertices];
         this.numVertices = numVertices;
@@ -52,15 +52,15 @@ public class XGrafo {
         }
     }
 
-    public void insereAresta(int v1, int v2, int peso) {
+    public void insereAresta(int v1, int v2, int peso) { //insere uma aresta
         this.mat[v1][v2] = peso;
     }
 
-    public boolean existeAresta(int v1, int v2) {
+    public boolean existeAresta(int v1, int v2) { //verifica a existencia da aresta
         return (this.mat[v1][v2] > 0);
     }
 
-    public boolean listaAdjVazia(int v) {
+    public boolean listaAdjVazia(int v) { //confere se um vertice ja tem uma adjacencia 
         for (int i = 0; i < this.numVertices; i++) {
             if (this.mat[v][i] > 0) {
                 return false;
