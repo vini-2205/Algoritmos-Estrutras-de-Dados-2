@@ -18,11 +18,9 @@ public class Main {
         int nVertices = ler.nextInt();
         System.out.print("No. arestas: ");
         int nArestas = ler.nextInt();
-        System.out.print("Raiz da AGM:");
-        int raiz = ler.nextInt();
         XGrafo grafo = new XGrafo(nVertices);
         System.out.println("Digite os pares v1,v2 e o Peso: ");
-        for (int i = 0; i < nArestas; i++) {
+        for (int i = 0; i < nArestas; i++) {// insercao dos vertices e pesos
             int v1 = ler.nextInt();
             int v2 = ler.nextInt();
             int peso = ler.nextInt();
@@ -30,10 +28,11 @@ public class Main {
             grafo.insereAresta(v2, v1, peso); // @{\it grafo n\~ao direcionado}@
         }
         grafo.imprime();
-        XAGM dj = new XAGM(grafo);
-        dj.obterArvoreCMC(raiz);
-        dj.imprime();
-        dj.imprimeCaminho(5, 4);
-        System.out.println("O peso daarvore eh: " + dj.getPesoTotal());
+        for(int i=0;i<nVertices;i++){//criacao das AGM para cada vetice
+            XAGM dj = new XAGM(grafo);
+            dj.obterArvoreCMC(i);
+            dj.calcularPeso();
+            System.out.println("O peso da arvore eh: " + dj.getPesoTotal() + " para raiz: " + i);
+        }
     }
 }

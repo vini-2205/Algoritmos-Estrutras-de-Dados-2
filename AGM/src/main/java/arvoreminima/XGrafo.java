@@ -8,7 +8,7 @@ package arvoreminima;
  *
  * @author user
  */
-public class XGrafo {
+public class XGrafo {//grafo ja comentado na pratica 5
 
     public static class Aresta {
 
@@ -33,73 +33,76 @@ public class XGrafo {
         }
     }
 
-    private static class Celula {
-
-        int vertice, peso;
-
-        public Celula(int v, int p) {
-            this.vertice = v;
-            this.peso = p;
-        }
-
-        public boolean equals(Object obj) {
-            Celula item = (Celula) obj;
-            return (this.vertice == item.vertice);
-        }
-    }
-    private Lista adj[];
+    private int mat[][]; // @{\it pesos do tipo inteiro}@
     private int numVertices;
+    private int pos[]; // @{\it posi\c{c}\~ao atual ao se percorrer os adjs de um v\'ertice v}@
 
     public XGrafo(int numVertices) {
-        this.adj = new Lista[numVertices];
+        this.mat = new int[numVertices][numVertices];
+        this.pos = new int[numVertices];
         this.numVertices = numVertices;
         for (int i = 0; i < this.numVertices; i++) {
-            this.adj[i] = new Lista();
+            for (int j = 0; j < this.numVertices; j++)
+                this.mat[i][j] = 0;
+            this.pos[i] = -1;
         }
-    }  //@\lstcontinue@
+    }
 
     public void insereAresta(int v1, int v2, int peso) {
-        Celula item = new Celula(v2, peso);
-        this.adj[v1].insere(item);
+        this.mat[v1][v2] = peso;
     }
 
     public boolean existeAresta(int v1, int v2) {
-        Celula item = new Celula(v2, 0);
-        return (this.adj[v1].pesquisa(item) != null);
+        return (this.mat[v1][v2] > 0);
     }
 
     public boolean listaAdjVazia(int v) {
-        return this.adj[v].vazia();
+        for (int i = 0; i < this.numVertices; i++)
+            if (this.mat[v][i] > 0)
+                return false;
+        return true;
     }
 
     public Aresta primeiroListaAdj(int v) {
         // @{\it Retorna a primeira aresta que o v\'ertice v participa ou}@
-        // @{\it {\bf NULL} se a lista de adjac\^encia de v for vazia}@ 
-        Celula item = (Celula) this.adj[v].primeiro();
-        return item != null ? new Aresta(v, item.vertice, item.peso) : null;
+        // @{\it {\bf null} se a lista de adjac\^encia de v for vazia}@
+        this.pos[v] = -1;
+        return this.proxAdj(v);
     }
 
     public Aresta proxAdj(int v) {
         // @{\it Retorna a pr\'oxima aresta que o v\'ertice v participa ou}@
         // @{\it {\bf null} se a lista de adjac\^encia de v estiver no fim}@
-        Celula item = (Celula) this.adj[v].proximo();
-        return item != null ? new Aresta(v, item.vertice, item.peso) : null;
+        this.pos[v]++;
+        while ((this.pos[v] < this.numVertices) &&
+                (this.mat[v][this.pos[v]] == 0))
+            this.pos[v]++;
+        if (this.pos[v] == this.numVertices)
+            return null;
+        else
+            return new Aresta(v, this.pos[v], this.mat[v][this.pos[v]]);
     }
 
-    public Aresta retiraAresta(int v1, int v2) throws Exception {
-        Celula chave = new Celula(v2, 0);
-        Celula item = (Celula) this.adj[v1].retira(chave);
-        return item != null ? new Aresta(v1, v2, item.peso) : null;
+    public Aresta retiraAresta(int v1, int v2) {
+        if (this.mat[v1][v2] == 0)
+            return null; // @{\it Aresta n\~ao existe}@
+        else {
+            Aresta aresta = new Aresta(v1, v2, this.mat[v1][v2]);
+            this.mat[v1][v2] = 0;
+            return aresta;
+        }
     }
 
     public void imprime() {
+        System.out.print("   ");
+        for (int i = 0; i < this.numVertices; i++)
+            System.out.print(i + "   ");
+        System.out.println();
         for (int i = 0; i < this.numVertices; i++) {
-            System.out.println("Vertice " + i + ":");
-            Celula item = (Celula) this.adj[i].primeiro();
-            while (item != null) {
-                System.out.println("  " + item.vertice + " (" + item.peso + ")");
-                item = (Celula) this.adj[i].proximo();
-            }
+            System.out.print(i + "  ");
+            for (int j = 0; j < this.numVertices; j++)
+                System.out.print(this.mat[i][j] + "   ");
+            System.out.println();
         }
     }
 
@@ -109,7 +112,7 @@ public class XGrafo {
 
     public XGrafo grafoTransposto() {
         XGrafo grafoT = new XGrafo(this.numVertices);
-        for (int v = 0; v < this.numVertices; v++) {
+        for (int v = 0; v < this.numVertices; v++)
             if (!this.listaAdjVazia(v)) {
                 Aresta adj = this.primeiroListaAdj(v);
                 while (adj != null) {
@@ -117,7 +120,6 @@ public class XGrafo {
                     adj = this.proxAdj(v);
                 }
             }
-        }
         return grafoT;
     }
 }
